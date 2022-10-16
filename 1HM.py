@@ -1,0 +1,11 @@
+number = int(input("Введите число: "))
+print(number)
+if number < 1 or number > 7:
+    print("нет такого дня недели")
+elif number == 1: print('Пн')
+elif number == 2: print('Вт')
+elif number == 3: print('Ср')
+elif number == 4: print('Чт')
+elif number == 5: print('Пт')
+elif number == 6: print('Сб')
+elif number == 7: print('Вс')
